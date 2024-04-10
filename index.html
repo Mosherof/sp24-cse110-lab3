@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 2: Meeting Minutes in HTML</title>
+    <meta charset="UTF-8">
+    <link rel="example" href="https://developer.mozilla.org/en-US/docs/Glossary/Favicon">
+  </head>
+  <body>
+    <header>
+        <h1>
+            Lab 2: Meeting Minutes in HTML
+        </h1>
+        <h3>
+            Topic of the Meeting
+        </h3>
+        <h3>
+            April 10, 2024
+        </h3>
+    <hr>
+    </header>
+    <nav>
+        <a href="#attendance">Attendance</a>
+        <a href="#agenda">Agenda List</a>
+        <a href="#unfinished">Unfinished Business</a>
+        <a href="#business">Business</a>
+        <a href="#comments">Comments</a>
+        <a href="#figures">Figures</a>
+        <hr>
+    </nav>
+    <main>
+        <section id="attendance">
+            <h2> Attendance List</h2>
+            <div>
+                <div class="row"> 
+                    <div class="name"> Name 1</div>
+                    <div class="presence"><b>X</b></div>
+                </div>
+                <div class="row">
+                    <div class="name">Name 2</div>
+                    <div class="presence"><b>X</b></div>
+                </div>
+                <div class="row">
+                    <div class="name">Name 3</div>
+                    <div class="presence"><b>X</b></div>
+                </div>
+                <div class="row">
+                    <div class="name">Name 4</div>
+                    <div class="presence"><b>X</b></div>
+                </div>
+                <div class="row">
+                    <div class="name">Name 5</div>
+                    <div class="presence"><b>X</b></div>
+                </div>
+                <div class="row">
+                    <div class="name">Name 6</div>
+                    <div class="presence"><b>X</b></div>
+                </div>
+            </div>
+            <details>
+                <summary><strong>Explaining Attendance Layout</strong></summary>
+                <p>If styling could be added, I would try using the div tags to create a table with a column for the member and a column for their presence. Their presence would be indicated with an "X". <em>However, without styling,</em> this layout appears as divs on newlines.</p>
+            </details>
+        </section>
+       <section id="agenda">
+            <h2>Agenda List</h2>
+       </section>
+       <section id="unfinished">
+            <h2>Unfinished Business</h2>
+            <p> If there was <span id="red"> unfinished business</span> from last meeting, it could be discussed like this in an unordered list. I could also add the <a href="https://www.nasa.gov/">link</a> to last minutes, but since there are none during this assignment, the <a href="https://www.nasa.gov/">link</a> goes to NASA.</p>
+            <ul>
+                <li>first unfinished</li>
+                <li>second unfinished</li>
+                <li>third unfinished</li>
+                <li>fourth unfinished</li>
+            </ul>
+       </section>
+       <section id="business">
+            <h2>New Business</h2>
+            <p> If there was <span id="green">new business</span>, it could be discussed like this in an ordered list:</p>
+            <ol>
+                <li>first new</li>
+                <li>second new</li>
+                <li>third new</li>
+                <li>fourth new</li>
+            </ol>
+       </section>
+       <section id="comments">
+            <h2>Q's, Comments, Concerns</h2>
+            <p>This is a paragraph all about stuff I am concerned about. I am concerned about finding a place to rent out for three months between July-October because it is an odd range of time. I am going to add a break 
+                now to demonstrate how there can be a newline without ending a "p" section. <br>
+                This is now a new paragraph which is all about questions I have. If you can always make something smaller which means you can always make something bigger, what hope do we have at ever truly understanding the universe?
+                When animals face no challenges due to environment (climate, food source, predators), the result is greater biodiversity. Given that many humans face less challenges to survive long enough to reproduce, what can we expect of the biodiversity? Is this 
+                "canceled out" due to globalization meaning that populations are not isolated long enough?
+            </p>
+       </section>
+       <section id="figures">
+            <h2>Figures/Files</h2>
+            <div> This is a Video of Tahoe, CA: <br>
+                <video controls="controls" width="300" height="500" name="Tahoe">
+                    <source src="IMG_0131.MOV">
+                  </video>
+            </div>   
+            <div> This is a Video of a gecko: <br>
+                <video controls="controls" width="300" height="500" name="Tahoe">
+                    <source src="IMG_0863.MOV">
+                  </video>
+            </div>  
+            <div> This an audio I found off the internet: <br>
+                <audio controls>
+                    <source src="mixkit-arcade-retro-game-over-213.wav" type="audio/wav">
+                </audio>
+            </div> 
+            <div> This is an image of Bryce Canyon Nat. Park <br>
+                <img src="IMG_5651.jpg" width="300" height="500">
+            </div>
+       </section>
+      
+      
+    </main>
+    <footer> 
+        <h3> Footer: <i>Related Documents - Forms for Lab 2</i></h3>
+        <form action="" method="get">
+            <fieldset>      
+                  How many colleges are there at UCSD? 
+            </fieldset>
+            <input type="text">
+        </form>
+    
+        <form action="" method="get">
+            <fieldset> 
+                <textarea>
+                    Are you able to expand this box to see the entire text? This is the form to test textarea. You need to be able to drag the lower right corner in order to complete this task. 
+                </textarea>     
+            </fieldset>
+            <button onclick="alert('You clicked yes')">Yes</button>
+            <button onclick="alert('You clicked no')">No</button>
+        </form>
+        <form action="" method="get">
+            <fieldset>      
+                  What is your favorite color? 
+            </fieldset>
+            <select>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="pink">Pink</option>
+                <option value="orange">Orange</option>
+                <option value="other">Other</option>
+            </select>    
+        </form>
+
+        <form action="" method="get">
+            <fieldset>      
+                  What year is it? 
+            </fieldset>
+            <input list="years"/>
+            <datalist id="years">
+                <option value="2000"></option>
+                <option value="1909"></option>
+                <option value="2023"></option>
+                <option value="2025"></option>
+                <option value="2024"></option>
+                <option value="2022"></option>
+            </datalist>    
+        </form>
+    </footer>
+  </body>
+</html>
