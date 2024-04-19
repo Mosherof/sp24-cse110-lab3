@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-URL: [https://mosherof.github.io/Lab2_Starter/](https://mosherof.github.io/Lab2_Starter/)
+URL: [https://mosherof.github.io/sp24-cse110-lab3/](https://mosherof.github.io/sp24-cse110-lab3/)
