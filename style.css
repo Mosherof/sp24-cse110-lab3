@@ -9,3 +9,7 @@ header{
 main{
     background-color: hsl(0, 100%, 99%);
 }
+
+a{
+    color: black;
+}
