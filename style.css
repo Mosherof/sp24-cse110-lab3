@@ -1,7 +1,11 @@
 body{
-    background-color: rgb(255, 240, 241);
+    background-color: rgb(249, 206, 232);
 }
 
 header{
     background-color: #FCA9DB;
+}
+
+main{
+    background-color: hsl(0, 100%, 99%);
 }
