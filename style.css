@@ -6,7 +6,16 @@ header{
     background-color: #FCA9DB;
 }
 
-main{
+footer{
+    background-color: color(srgb 90% 100% 100%);
+
+}
+
+h3{
+    background-color: color-mix(in lch, plum, pink);
+}
+
+#foormain{
     background-color: hsl(0, 100%, 99%);
 }
 
