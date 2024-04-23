@@ -6,6 +6,17 @@ body{
     background-color: rgb(249, 206, 232);
 }
 
+div.name {
+    display: inline-block;
+}
+
+div.presence {
+    position:relative;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
 header{
     background-color: #FCA9DB;
 }
@@ -34,9 +45,10 @@ nav{
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    position: relative;
 }
 
 #navlink{
