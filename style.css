@@ -4,6 +4,9 @@ a{
 
 body{
     background-color: rgb(249, 206, 232);
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(87, 62, 62);
 }
 
 div.name {
