@@ -1,3 +1,7 @@
+a{ 
+    color: black;
+}
+
 body{
     background-color: rgb(249, 206, 232);
 }
@@ -15,10 +19,30 @@ h3{
     background-color: color-mix(in lch, plum, pink);
 }
 
-#foormain{
+main{
     background-color: hsl(0, 100%, 99%);
+    margin: auto;
 }
 
-a{
-    color: black;
+nav{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+#navlink{
+    margin: 3px 3px 3px 3px;
+    padding: 1px 1px 1px 1px;
+}
+
+
+
