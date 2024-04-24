@@ -7,6 +7,8 @@ body{
     text-align: center;
     text-decoration: wavy;
     color: rgb(87, 62, 62);
+    font-family: 'Nunito';
+
 }
 
 
@@ -46,6 +48,7 @@ div.presence {
     height: 300px;
     max-width: 180px;
 }
+
 
 footer{
     background-color: color(srgb 90% 100% 100%);
