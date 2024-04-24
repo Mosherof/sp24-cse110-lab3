@@ -9,6 +9,10 @@ body{
     color: rgb(87, 62, 62);
 }
 
+summary:active{
+    color:#FCA9DB;
+}
+
 div.name {
     display: inline-block;
 }
@@ -53,6 +57,10 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     position: relative;
+}
+
+#navlink:hover{
+    background-color: whitesmoke;
 }
 
 #navlink{
