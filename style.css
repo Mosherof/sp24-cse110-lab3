@@ -1,3 +1,7 @@
+*{
+    font-family: 'Nunito';
+}
+
 a{ 
     color: black;
 }
@@ -7,8 +11,6 @@ body{
     text-align: center;
     text-decoration: wavy;
     color: rgb(87, 62, 62);
-    font-family: 'Nunito';
-
 }
 
 
