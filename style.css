@@ -9,6 +9,15 @@ body{
     color: rgb(87, 62, 62);
 }
 
+
+@media screen and (max-device-width: 500px){
+
+    body{
+        font-size: large;
+    }
+
+}
+
 summary:active{
     color:#FCA9DB;
 }
