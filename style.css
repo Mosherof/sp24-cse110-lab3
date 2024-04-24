@@ -49,10 +49,29 @@ div.presence {
     max-width: 180px;
 }
 
+#figures {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 footer{
     background-color: color(srgb 90% 100% 100%);
+    display: grid;
+    grid: 200px / auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
 
+form > fieldset {
+    color:deeppink;
+    text-decoration: underline dotted;
+
+}
+
+form[action="add-action"] {
+    background-color: #FCA9DB;
 }
 
 h1, h2, h3{
@@ -102,6 +121,7 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     position: relative;
+    flex-wrap: nowrap;
 }
 
 #navlink:hover{
@@ -117,11 +137,6 @@ nav{
     --fallback-bg:  rgb(249, 206, 232);
 }
 
-form > fieldset {
-    color:deeppink;
-    text-decoration: underline dotted;
-
-}
 
 ul li{
     text-align: left;
